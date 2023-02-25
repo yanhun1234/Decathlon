@@ -15,49 +15,49 @@ if (typeof(Storage) !== "undefined") {
 }
 function a_1()
 {
-  localStorage.a_1=1
+  localStorage.a_1=Number(localStorage.a_1)+1
 }
 function a_2()
 {
-  localStorage.a_2=1
+  localStorage.a_2=Number(localStorage.a_2)+1
 }
 function a_3()
 {
-  localStorage.a_3=1
+  localStorage.a_3=Number(localStorage.a_3)+1
 }
 function a_4()
 {
-  localStorage.a_4=1
+  localStorage.a_4=Number(localStorage.a_4)+1
 }
 function a_5()
 {
-  localStorage.a_5=1
+  localStorage.a_5=Number(localStorage.a_5)+1
 }
 function a_6()
 {
-  localStorage.a_6=1
+  localStorage.a_6=Number(localStorage.a_6)+1
 }
 function a_7()
 {
-  localStorage.a_7=1
+  localStorage.a_7=Number(localStorage.a_7)+1
 }
 function a_8()
 {
-  localStorage.a_8=1
+  localStorage.a_8=Number(localStorage.a_8)+1
 }
 function a_9()
 {
-  localStorage.a_9=1
+  localStorage.a_9=Number(localStorage.a_9)+1
 }
 function a_10()
 {
-  localStorage.a_10=1
+  localStorage.a_10=Number(localStorage.a_10)+1
 }
 function a_11()
 {
-  localStorage.a_11=1
+  localStorage.a_11=Number(localStorage.a_11)+1
 }
 function a_12()
 {
-  localStorage.a_12=1
+  localStorage.a_12=Number(localStorage.a_12)+1
 }
