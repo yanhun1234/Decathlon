@@ -1,171 +1,57 @@
-// if (typeof (Storage) !== "undefined") {
-//     localStorage.a_1 = 0
-//     localStorage.a_2 = 0
-//     localStorage.a_3 = 0
-//     localStorage.a_4 = 0
-//     localStorage.a_5 = 0
-//     localStorage.a_6 = 0
-//     localStorage.a_7 = 0
-//     localStorage.a_8 = 0
-//     localStorage.a_9 = 0
-//     localStorage.a_10 = 0
-//     localStorage.a_11 = 0
-//     localStorage.a_12 = 0
-// } else {
-// }
-async function a_1() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_1) {
-            localStorage.a_1 = Number(localStorage.a_1) + 1;
+if (typeof Storage !== "undefined") {
+    for (let i = 1; i <= 12; i++) {
+        if (!localStorage[`a_${i}`]) {
+            localStorage[`a_${i}`] = 0;
         }
-        else {
-            localStorage.a_1 = 0;
-        }
-    }
-    else {
-
     }
 }
-async function a_2() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_2) {
-            localStorage.a_2 = Number(localStorage.a_2) + 1;
-        }
-        else {
-            localStorage.a_2 = 0;
-        }
-    }
-    else {
 
+async function incrementLocalStorage(key) {
+    if (typeof Storage !== "undefined") {
+        if (localStorage[key]) {
+            localStorage[key] = Number(localStorage[key]) + 1;
+        } else {
+            localStorage[key] = 0;
+        }
     }
+}
+
+async function a_1() {
+    await incrementLocalStorage("a_1");
+}
+
+async function a_2() {
+    await incrementLocalStorage("a_2");
 }
 async function a_3() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_3) {
-            localStorage.a_3 = Number(localStorage.a_3) + 1;
-        }
-        else {
-            localStorage.a_3 = 0;
-        }
-    }
-    else {
-
-    }
+    await incrementLocalStorage("a_3");
 }
-async function a_4() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_4) {
-            localStorage.a_4 = Number(localStorage.a_4) + 1;
-        }
-        else {
-            localStorage.a_4 = 0;
-        }
-    }
-    else {
 
-    }
+async function a_4() {
+    await incrementLocalStorage("a_4");
 }
 async function a_5() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_5) {
-            localStorage.a_5 = Number(localStorage.a_5) + 1;
-        }
-        else {
-            localStorage.a_5 = 0;
-        }
-    }
-    else {
-
-    }
+    await incrementLocalStorage("a_5");
 }
+
 async function a_6() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_6) {
-            localStorage.a_6 = Number(localStorage.a_6) + 1;
-        }
-        else {
-            localStorage.a_6 = 0;
-        }
-    }
-    else {
-
-    }
+    await incrementLocalStorage("a_6");
+}async function a_7() {
+    await incrementLocalStorage("a_7");
 }
-async function a_7() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_7) {
-            localStorage.a_7 = Number(localStorage.a_7) + 1;
-        }
-        else {
-            localStorage.a_7 = 0;
-        }
-    }
-    else {
 
-    }
-}
 async function a_8() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_8) {
-            localStorage.a_8 = Number(localStorage.a_8) + 1;
-        }
-        else {
-            localStorage.a_8 = 0;
-        }
-    }
-    else {
-
-    }
+    await incrementLocalStorage("a_8");
+}async function a_9() {
+    await incrementLocalStorage("a_9");
 }
-async function a_9() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_9) {
-            localStorage.a_9 = Number(localStorage.a_9) + 1;
-        }
-        else {
-            localStorage.a_9 = 0;
-        }
-    }
-    else {
 
-    }
-}
 async function a_10() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_10) {
-            localStorage.a_10 = Number(localStorage.a_10) + 1;
-        }
-        else {
-            localStorage.a_10 = 0;
-        }
-    }
-    else {
-
-    }
+    await incrementLocalStorage("a_10");
+}async function a_11() {
+    await incrementLocalStorage("a_11");
 }
-async function a_11() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_11) {
-            localStorage.a_11 = Number(localStorage.a_11) + 1;
-        }
-        else {
-            localStorage.a_11 = 0;
-        }
-    }
-    else {
 
-    }
-}
 async function a_12() {
-    if (typeof (Storage) !== "undefined") {
-        if (localStorage.a_12) {
-            localStorage.a_12 = Number(localStorage.a_12) + 1;
-        }
-        else {
-            localStorage.a_12 = 0;
-        }
-    }
-    else {
-
-    }
+    await incrementLocalStorage("a_12");
 }
